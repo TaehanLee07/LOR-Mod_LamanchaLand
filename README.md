@@ -3,4 +3,4 @@
 
 ## 참고 영상
 ---
-[![Canto 7 Final Boss](http://img.youtube.com/vi/iQmYCJwkTf8/0.jpg)](https://youtu.be/QYNwbZHmh8g?t=0s) 
+[![Canto 7 Final Boss](http://img.youtube.com/vi/iQmYCJwkTf8/0.jpg)](https://www.youtube.com/watch?v=iQmYCJwkTf8) 
