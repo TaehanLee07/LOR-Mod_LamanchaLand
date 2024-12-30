@@ -8,39 +8,7 @@ using LOR_DiceSystem;
 using Sound;
 using UI;
 
-public class PassiveAbility_GrabberPassive1 : PassiveAbilityBase
-{
-    public override void BeforeGiveDamage(BattleDiceBehavior behavior)
-    {
-        if (behavior.Detail == BehaviourDetail.Hit)
-        {
-            owner.battleCardResultLog?.SetPassiveAbility(this);
-            behavior.ApplyDiceStatBonus(new DiceStatBonus
-            {
-                dmg = 3
-            });
-        }
-        if (behavior.Detail == BehaviourDetail.Hit)
-        {
-            owner.ShowPassiveTypo(this);
-            behavior.ApplyDiceStatBonus(new DiceStatBonus
-            {
-                breakDmg = 3
-            });
-        }
-
-    }
-}
-
-public class PassiveAbility_GrabberPassive2 : PassiveAbilityBase
-{   public override void OnRoundStart()
-    {
-        owner.bufListDetail.AddKeywordBufThisRoundByEtc(KeywordBuf.Vulnerable, 1, owner);
-        owner.bufListDetail.AddKeywordBufThisRoundByEtc(KeywordBuf.Vulnerable_break, 1, owner);
-        owner.bufListDetail.AddKeywordBufThisRoundByEtc(KeywordBuf.Strength, 1, owner);
-    }
-}
-
+// 파괴 불가 주사위
 public class DiceCardAbility_DestroyImmuneDice : DiceCardAbilityBase
 {
     public override string[] Keywords => new string[1] { "DestroyImmuneDice" };
@@ -64,8 +32,6 @@ public class DiceCardAbility_DestroyImmuneDice : DiceCardAbilityBase
         card.AddDice(battleDiceBehavior);
 
     }
-
-
     public static string Desc = "<color=#A374DB>파괴불가 주사위</color>";
 }
 
