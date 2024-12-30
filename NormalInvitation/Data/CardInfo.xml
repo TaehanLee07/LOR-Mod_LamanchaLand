@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Card ID="1">
+    <Name>타는 갈증</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>selfbleeding5powerupM3</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="5" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="bleeding3atk" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="5" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="bleeding3atk" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="2">
+    <Name>꿰뚫려라</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DmgByPercentDmg" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DmgByPercentBDmg" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="3">
+    <Name>돈키호테류 경혈 2식 - 말뚝</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>selfbleeding5powerupM2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="Bleeding2WithDecay1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="Bleeding2WithDecay1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="Bleeding2WithDecay1" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="4">
+    <Name>경혈식 쐐기</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>selfbleeding20powerup</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="OnSucceedAtkBleeding3WithUnBreakAbleDice" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="7" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="OnSucceedAtkBleeding3WithUnBreakAbleDice" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="Bleeding2WithDecay1" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>100</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="5">
+    <Name>피의 욕망</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="FarAreaEach" Cost="0" Affection="Team" EmotionLimit="0" />
+    <Script>selfbleeding5powerupM2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="2" Dice="2" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="WinParryingBleeding1WithUnBreakAbleDice" ActionScript="" Desc="" />
+      <Behaviour Min="2" Dice="2" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="WinParryingBleeding1WithUnBreakAbleDice" ActionScript="" Desc="" />
+      <Behaviour Min="2" Dice="2" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="WinParryingBleeding1WithUnBreakAbleDice" ActionScript="" Desc="" />
+      <Behaviour Min="2" Dice="2" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="OnSucceedAtkBleeding3WithUnBreakAbleDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>100</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="6">
+    <Name>혈찬의 시간</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Common</Rarity>
+    <Spec Range="FarAreaEach" Cost="0" Affection="Team" EmotionLimit="0" />
+    <Script>selfbleeding20powerup</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="7" Dice="10" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DestroyImmuneDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>100</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="7">
+    <Name>돈키호테류 경혈 14식 망토</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="9" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="WinParryingBleeding4WithDeacy4WithUnBreakAbleDice" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="DestroyImmuneDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="8">
+    <Name>약하디 약하구나
+</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>selfbleeding5powerupM2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="16" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="Bleeding2WithDecay1" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="10" Type="Standby" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="Bleeding2WithDecay1" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="9">
+    <Name>돈키호테류 경혈 오의 - 구</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Unique</Rarity>
+    <Spec Range="FarAreaEach" Cost="0" Affection="Team" EmotionLimit="0" />
+    <Script>cryingChildArea</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="25" Dice="25" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DestroyImmuneDice" ActionScript="" Desc="" />
+      <Behaviour Min="25" Dice="25" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DestroyImmuneDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="10">
+    <Name>빛나는 모험의 기억</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Unique</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="10" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="bleeding5pw" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="11">
+    <Name>돈키호테류 경혈 오의 - 라 샹그레</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Unique</Rarity>
+    <Option>ExhaustOnUse</Option>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="99" Dice="99" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="12">
+    <Name>돌고도는 우리...</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Unique</Rarity>
+    <Option>ExhaustOnUse</Option>
+    <Spec Range="FarAreaEach" Cost="0" Affection="Team" EmotionLimit="0" />
+    <Script>AreaCardAdded</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="25" Dice="25" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="25" Dice="25" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="13">
+    <Name>경혈쐐기 1식-혈정</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="5" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="DestroyImmuneDice" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="5" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="DestroyImmuneDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>500</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="14">
+    <Name>경혈쐐기 2식-채찍</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>dmgUpbybleedingbuf</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="4" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="DmgByPercentDmg" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="4" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="WinParryingBleeding1WithUnBreakAbleDice" ActionScript="" Desc="" />
+      <Behaviour Min="3" Dice="4" Type="Atk" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="WinParryingBleeding1WithUnBreakAbleDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="15">
+    <Name>경혈쐐기 3식-가르기</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Uncommon</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>selfbleeding5powerupM2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="Bleeding2WithDecay1" ActionScript="" Desc="" />
+      <Behaviour Min="7" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="Bleeding2WithDecay1" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="OnSucceedAtkBleeding3WithUnBreakAbleDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="16">
+    <Name>경혈쐐기 4식-양산</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script>rhinoCard</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="5" Dice="11" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="Bleeding2WithDecay1" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="11" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="OnSucceedAtkBleeding3WithUnBreakAbleDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="17">
+    <Name>경혈쐐기 5식-피로 물든 철퇴</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="6" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DmgByPercentBDmg" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DmgByPercentBDmg" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="5" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="WinParryingBleeding4WithDeacy4WithUnBreakAbleDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="18">
+    <Name>???</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Unique</Rarity>
+    <Spec Range="FarAreaEach" Cost="0" Affection="One" EmotionLimit="5" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="666" Dice="666" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DestroyImmuneDice" ActionScript="" Desc="" />
+      <Behaviour Min="666" Dice="666" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DestroyImmuneDice" ActionScript="" Desc="" />
+      <Behaviour Min="666" Dice="666" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="DestroyImmuneDice" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>5</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+</DiceCardXmlRoot>

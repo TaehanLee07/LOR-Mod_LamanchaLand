@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Passive ID="1">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>atkByMostBleedingEnmey</Script>
+    <Name>다시 도는 피의 충동</Name>
+    <Desc>자신에게 출혈이 10 이상 있다면 힘 1, 신속 1 얻음
+자신에게 출혈이 20 이상 있다면 힘 2, 속박 2 얻음
+자신에게 출혈이 30 이상 있다면 힘 3, 속박 3, 취약 3, 흐트러짐 취약 3을 얻는다.
+상태이상을 받을 때, 받는 수치가 절반이 된다.(자신이 얻는 경우 제외, 소수점 이하 버림, 0 이하로 내려가지 않음)</Desc>
+  </Passive>
+  <Passive ID="2">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>Don_Quixote</Script>
+    <Name>돈키호테식 경혈</Name>
+    <Desc>공격 적중 시 체력을 15 회복하고
+자신에게 출혈이 있다면 모든 주사위 위력 + 1
+이 효과로 체력을 75 이상 회복했다면 다음 턴에 속박 3 얻는다.</Desc>
+  </Passive>
+  <Passive ID="3">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>for_famiiy</Script>
+    <Name>가족을 위하여...</Name>
+    <Desc>막 종료 시 흐트러짐 상태면, 다음 막 시작 시 흐트러짐을 해제하고, 출혈을 40 만큼 얻고 신속을 1 얻는다.</Desc>
+  </Passive>
+  <Passive ID="4">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>leader_of_family</Script>
+    <Name>낯선 만찬</Name>
+    <Desc>공격 주사위로 피해를 주지 못하면 흐트러짐 피해를 5-10 만큼 받고 출혈을 2만큼 얻는다.</Desc>
+  </Passive>
+  <Passive ID="5">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>spearBleed</Script>
+    <Name>경혈 쐐기</Name>
+    <Desc>출혈을 부여할 때, 부여하는 출혈 수치 +1</Desc>
+  </Passive>
+  <Passive ID="6">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>bloodArmor</Script>
+    <Name>혈갑</Name>
+    <Desc>피격시 공격자에게 출혈 1-2 부여</Desc>
+  </Passive>
+  <Passive ID="7">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>pieceOfDream</Script>
+    <Name>헛되고 안일했던 꿈의 조각
+</Name>
+    <Desc>막 시작 시 모든 사서 에게 속박 1 과 무장해제 1 부여</Desc>
+  </Passive>
+  <Passive ID="8">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>throw_family</Script>
+    <Name>가족을 등진 이기적인 바램</Name>
+    <Desc>사망 시 다음 막에 모든 사서에게 힘, 신속, 인내를 3 만큼 부여함</Desc>
+  </Passive>
+  <Passive ID="9">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>atfer_thinkOf_adventure</Script>
+    <Name>지나온 모험의 기억들</Name>
+    <Desc>사망 시 다음 막 에 꿈꾸는 모험의 기억 생성</Desc>
+  </Passive>
+  <Passive ID="10">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>ilLungIm</Script>
+    <Name>꿈에 닿으려 했던 위대한 해결사</Name>
+    <Desc>막 시작시 손에 있는 책장이 6장이 되도록 책장을 뽑는다. 모든 책장의 비용이 0 이 된다.</Desc>
+  </Passive>
+  <Passive ID="11">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>bloodMaryGoAround</Script>
+    <Name>버려지고 곪은 라만차랜드</Name>
+    <Desc>막 종료 시 체력이 50% 이하면 체력 20 감소 및 힘 2, 취약 2, 속박 2 얻음</Desc>
+  </Passive>
+  <Passive ID="12">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>bloodSee</Script>
+    <Name>다시... 다시 도는거란다.</Name>
+    <Desc>모든 주사위 위력 - 1 , 막 시작 시 모든 적에게 출혈 3 부여 공격 시 대상이 출혈 상태라면 피해량 + 2
+피격 시 대상이 출혈 상태라면 피해량 -2
+적 처치 시 최대 체력의 10% 만큼 체력을 회복한다.</Desc>
+  </Passive>
+  <Passive ID="13">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>bloodCup</Script>
+    <Name>영원히 도는 풍차, 그리고 우리</Name>
+    <Desc>굳어진 꿈이 하나라도 살아있다면 체력이 100 이하로 내려가지 않는다.</Desc>
+  </Passive>
+  <Passive ID="14">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>ProtectionSpear</Script>
+    <Name>돈키호테류 경혈쐐기 4식</Name>
+    <Desc>이 캐릭터가 살아있는동안 매 막 시작 시마다 모든 아군 이 보호 + 1, 흐트러짐 보호 + 1의 효과를 얻는다.</Desc>
+  </Passive>
+  <Passive ID="15">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>bloodSpearBinding</Script>
+    <Name>경혈 쐐기 구속</Name>
+    <Desc>이 유닛이 제거되면 다음 막 모든 적에게 속박 3을 부여함</Desc>
+  </Passive>
+  <Passive ID="16">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>StackSpear</Script>
+    <Name>돈키호테류 경혈쐐기 3식</Name>
+    <Desc>이전 막에 공격을 받지 않은 경우 다음 막 시작 시 힘 10, 신속 10, 보호 및 흐트러짐 보호 10을 얻는다.</Desc>
+  </Passive>
+  <Passive ID="17">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>VulnerableSpear</Script>
+    <Name>돈키호테류 경혈쐐기 2식</Name>
+    <Desc>이 캐릭터가 살아있는동안 매 막 시작 시마다 모든 아군이 힘 1 과 취약 1 을 얻는다.</Desc>
+  </Passive>
+  <Passive ID="18">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Rare</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>BuffSpear</Script>
+    <Name>돈키호테류 경혈쐐기 1식</Name>
+    <Desc>이 캐릭터가 살아있는동안 매 막 시작 시마다 모든 아군이 신속 + 1의 효과를 얻는다.</Desc>
+  </Passive>
+  <Passive ID="19">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>true</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>0</Cost>
+    <Script>ilLungImPhase_one</Script>
+    <Name>일족의 수장</Name>
+    <Desc>막 시작시 손에 있는 책장이 4장이 되도록 책장을 뽑는다. 모든 책장의 비용이 0 이 된다.</Desc>
+  </Passive>
+</PassiveXmlRoot>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnemyUnitClassRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Enemy ID="1">
+    <Name>돈키호테</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>1</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">-1</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="2">
+    <Name>키호테</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>2</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">-1</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="3">
+    <Name>굳어진 꿈</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>3</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">-1</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="4">
+    <Name>어버이 돈 키호테</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>4</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">-1</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="5">
+    <Name>꿰뚫은 창</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>5</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">-1</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="6">
+    <Name>꿰뚫은 창</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>6</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">-1</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="7">
+    <Name>꿰뚫은 창</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>7</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">-1</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+  <Enemy ID="8">
+    <Name>꿰뚫은 창</Name>
+    <FaceType>Skin</FaceType>
+    <NameID>-1</NameID>
+    <MinHeight>170</MinHeight>
+    <MaxHeight>170</MaxHeight>
+    <Unknown>false</Unknown>
+    <Gender>F</Gender>
+    <Retreat>false</Retreat>
+    <BookId>8</BookId>
+    <BodyId>0</BodyId>
+    <Exp>0</Exp>
+    <DropBonus>0</DropBonus>
+    <DropTable Level="0">
+      <DropItem Prob="1">-1</DropItem>
+    </DropTable>
+    <AiScript />
+  </Enemy>
+</EnemyUnitClassRoot>

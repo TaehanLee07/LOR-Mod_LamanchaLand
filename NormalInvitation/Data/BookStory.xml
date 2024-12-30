@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookDescRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <bookDescList>
+    <BookDesc BookID="10000001">
+      <BookName />
+      <TextList />
+    </BookDesc>
+    <BookDesc BookID="10000001">
+      <BookName />
+      <TextList />
+    </BookDesc>
+  </bookDescList>
+</BookDescRoot>

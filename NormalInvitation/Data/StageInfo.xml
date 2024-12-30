@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StageXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.1</Version>
+  <Stage id="1">
+    <Name>라만차 랜드</Name>
+    <Wave>
+      <Unit>1</Unit>
+      <Unit>5</Unit>
+      <Unit>6</Unit>
+      <Unit>7</Unit>
+      <Unit>8</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <Wave>
+      <Unit>2</Unit>
+      <Unit>3</Unit>
+      <Unit>3</Unit>
+      <Unit>3</Unit>
+      <Unit>3</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <Wave>
+      <Unit>4</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>1</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>1</FloorNum>
+    <Chapter>5</Chapter>
+    <Invitation Combine="BookValue">
+      <Value>5</Value>
+      <Num>1</Num>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <Story Condition="Start">Button</Story>
+    <Story Condition="End" />
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+</StageXmlRoot>
