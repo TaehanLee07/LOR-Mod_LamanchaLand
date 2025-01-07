@@ -35,6 +35,49 @@ public class DiceCardAbility_DestroyImmuneDice : DiceCardAbilityBase
     public static string Desc = "<color=#A374DB>파괴불가 주사위</color>";
 }
 
+public class DiceCardSelfAbility_DisabledClashDice : DiceCardSelfAbilityBase
+{
+    public override void OnUseCard()
+    {
+        base.OnUseCard();
+        if (this.card != null && this.card.target != null && this.card.target.currentDiceAction != null)
+        {
+            this.card.target.currentDiceAction.DestroyDice(DiceMatch.AllDice, DiceUITiming.Start);
+            Singleton<StageController>.Instance.AddAllCardListInBattle(this.card.target.currentDiceAction, base.owner, -1);
+        }
+    }
+
+    public static string Desc = "<color=#A374DB>합 불가능 책장</color>";
+}
+
+public class DiceCardSelfAbility_MultiTargetDice : DiceCardSelfAbilityBase
+{
+
+    public override void OnUseCard()
+    {
+        base.owner.bufListDetail.AddKeywordBufThisRoundByCard(KeywordBuf.Bleeding, 20, base.owner);
+    }
+    public override void OnApplyCard()
+    {
+        this.FirstTarget = this.card.target;
+        bool flag = this.card.subTargets.Count > 2;
+        if (flag)
+        {
+            List<BattlePlayingCardDataInUnitModel.SubTarget> subTargets = this.card.subTargets;
+            List<BattlePlayingCardDataInUnitModel.SubTarget> list = new List<BattlePlayingCardDataInUnitModel.SubTarget>();
+            BattlePlayingCardDataInUnitModel.SubTarget subTarget = RandomUtil.SelectOne<BattlePlayingCardDataInUnitModel.SubTarget>(subTargets);
+            list.Add(subTarget);
+            subTargets.Remove(subTarget);
+            list.Add(RandomUtil.SelectOne<BattlePlayingCardDataInUnitModel.SubTarget>(subTargets));
+            this.card.subTargets = list;
+        }
+    }
+
+    public static string Desc = "[다중 대상 지정 책장] 이 책장은 2명의 적을 타겟으로 한다.\n자신에게 출혈 20 부여";
+
+    private BattleUnitModel FirstTarget;
+}
+
 public class DiceCardAbility_DmgByPercentDmg : DiceCardAbilityBase
 {
     public static string Desc = "[적중 시] 대상의 최대 체력의 20%만큼 피해를 줌";
